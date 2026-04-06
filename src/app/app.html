@@ -1,0 +1,20 @@
+<h1>My First Angular Application</h1>
+
+<h2>{{title()}}</h2>
+
+<input type="text" placeholder="Enter your name" [formControl]="name" ><br><br>
+<input type="text" placeholder="Enter your email" [formControl]="email"><br><br>
+<input type="number" placeholder="Enter your phone number" [formControl]="phone"><br><br>
+<button type="button" class="btn btn-primary" (click)="info()">Register</button><br><br>
+<!-- <button (click)="info()">Register</button><br><br> -->
+<!-- <button (click)="reset()">Reset</button> -->
+<button type="button" class="btn btn-primary" (click)="reset()">Reset</button><br><br>
+
+<!-- <h2>API call</h2>
+@for(items of productlist;track items.id){
+    <ul>
+        <li>{{items.title}}</li>
+        <li>{{items.id}}</li>
+        <li>{{items.userId}}</li>
+    </ul>
+} -->
